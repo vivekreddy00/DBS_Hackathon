@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>
+            Register Page
+        </title>
+        <link rel="stylesheet" type="text/css" href="signupcss.css">
+    </head>
+    <body>
+        <section>
+            <div class="out">
+                <div class="form">
+                    <h2> Register </h2>
+                    <form action="" method="post" onsubmit="return validation()" id="form">
+                        <div class="inputbox">
+                            <input type="text" placeholder="firstname" name="first" id="firstname">
+                        </div>  
+                        <span id="user">  </span>
+                        <div class="inputbox">
+                            <input type="text" placeholder="lastname" name="last" id="lastname">
+                        </div>  
+                        
+                        <div class="inputbox">
+                            <input type="number" placeholder="contact number" name="contact" id="contact">
+                            <span id="contacterror"></span>
+                        </div>
+
+                        <div class="inputbox1">
+                            <input type="radio" class="gender" name="gender" value="Male"> Male
+                            <br>
+                            <input type="radio" class="gender" name="female"> <label> Female</label><br>
+                            <input type="radio" class="gender" name="others">
+                            <label> Others </label> <br><br>
+                        </div>
+                        <div class="inputbox"> 
+                            <input type="email" placeholder="abc@gmail.com" name="email" id="email">
+                            <span id="emialerror"></span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="password" placeholder="password" name="password" id="password">
+                            <span id="passerror"></span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="password" placeholder="confirm password" name="confirm" id="confirm">
+                            <span id="confirmerror"></span>
+                        </div>
+                        
+                        <div class="inputbox">
+                            <input type="submit" name="submit" value="Register">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
