@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Railway Booking </title>
+    <style>
+        body {
+            background-image: url("123.png");
+            background-size: cover;
+        }
+        
+        #form {
+           background-color:white;
+    position: absolute;
+    padding: 20px;
+    top: 10%;
+    left: 25%; 
+right:25%;
+    opacity:0.9;
+    border-radius: 6px;
+        }
+        
+#form h1{
+color:Grey;
+            font-size: 30px;
+            border-bottom: 4px solid #f2745f;
+            width: 300px;
+            padding: 5px;
+}
+        #form h3 {
+	    color:Grey;
+            font-size: 30px;
+            border-bottom: 4px solid #f2745f;
+            width: 210px;
+            padding: 5px;
+        }
+        
+        ::placeholder {
+            color: Black
+        }
+        
+        #input #input-group {
+            width: 300px;
+            margin: 5px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            outline: none;
+            background: transparent;
+            color:solid #f2745f
+        }
+        #input #input-group2 {
+            width: 200px;
+            margin: 5px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            outline: none;
+            background: transparent;
+            color:solid #f2745f
+        }
+        
+        #input2 #input-group {
+            width: 195px;
+            margin: 5px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            outline: none;
+            background: transparent;
+            color: solid #f2745f
+        }
+        
+        
+        #input3 #input-group {
+            width: 300px;
+            margin: 5px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            outline: none;
+            background: transparent;
+            color: solid #f2745f
+        }
+        
+        #input3 #input-group1 {
+            width: 615px;
+            margin: 5px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            outline: none;
+            background: transparent;
+            color: solid #f2745f
+        }
+        
+        #input4 h3 {
+            color:grey;
+            border-bottom: 4px solid #ff7152;
+            width: 220px;
+            padding: 5px;
+        }
+        
+        #input5 #input-group {
+            width: 300px;
+            margin: 5px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            outline: none;
+            background: transparent;
+            color:solid #f2745f
+        }
+        
+        #input5 #input-group1 {
+            width: 615px;
+            margin: 5px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            outline: none;
+            background: transparent;
+            color: solid #f2745f
+        }
+.btn{
+    color: white;
+    cursor: pointer;
+    outline: none; 
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid #ff7152;
+    border-radius: 10px;
+    font-size: 18px;
+    background: #ff7152;
+    font-weight: bold;
+    
+}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form class="form-group">
+            <div id="form">
+             <center><h1 align="center">Railway Booking Form</h1></center>
+                <h3>Booking Details</h3>
+                <div id="input">
+	              <input type="text" id="input-group" placeholder="Enter train number">
+                    </br>
+                    <input type="text" id="input-group" placeholder="From">
+                    <input type="text" id="input-group" placeholder="To">
+		        </br>
+		        <label for="input-group">Departure Date</label>
+                    <input type="date" id="input-group2" placeholder="Departure Date">
+                    
+                    <label for="input-group">Departure Time</label>
+                       
+                    <input type="time" id="input-group2" placeholder="Departure Time">
+                </div>
+
+                <div id="input2">
+                    <input type="number" id="input-group" placeholder="Adult">
+                    <input type="number" id="input-group" placeholder="Children(2-11years)">
+                    <input type="number" id="input-group" placeholder="Infant(under 2years)">
+                </div>
+
+    
+                <div id="input3">
+                    <input type="text" id="input-group" placeholder="Return Date">
+                    <input type="text" id="input-group" placeholder="Return time">
+                </div>
+
+                <div id="input4">
+                    <h3>Personal Details</h3>
+                </div>
+               
+
+                <div id="input5">
+                  
+                    <input type="text" id="input-group" placeholder="Full Name">
+                    <input type="number" id="input-group" placeholder="Phone Number">
+                    <input type="email" id="input-group1" placeholder="Email">
+                </div>
+           
+                <button type="submit" class="btn btn-warning text-white">Submit Form</button>
+                <button type="reset" class="btn btn-primary">Clear Form</button>
+            </div>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
