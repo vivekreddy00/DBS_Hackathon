@@ -1,4 +1,5 @@
 .row {
+    /* color: antiquewhite; */
     display: -ms-flexbox; 
     display: flex;
     -ms-flex-wrap: wrap; 
@@ -28,9 +29,9 @@
   }
   
   .container {
-    background-color: #f2f2f2;
+    background-color:antiquewhite;
     padding: 5px 20px 15px 20px;
-    border: 1px solid lightgrey;
+    border: 1px solid navy;
     border-radius: 3px;
   }
   
